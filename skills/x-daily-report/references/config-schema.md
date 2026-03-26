@@ -18,7 +18,7 @@ publish:
 
 ```yaml
 profile:
-  name: jav-news
+  name: example-report
   platform: x
   timezone: Asia/Shanghai
 ```

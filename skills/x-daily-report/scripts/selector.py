@@ -37,11 +37,11 @@ def score_candidate(item: dict, config: dict) -> float:
 
 def summarize_item(item: dict, config: dict) -> str:
     text = item.get('text', '')
-    if 'デビュー' in text or '解禁' in text:
-        return '这是典型的新作/新人解禁型内容，属于当天最值得跟进的宣发信号。'
-    if '無料' in text or 'イベント' in text or '開催' in text:
+    if 'debut' in text or 'announcement' in text:
+        return '这是典型的launch/新人announcement型内容，属于当天最值得跟进的宣发信号。'
+    if 'free' in text or 'event' in text or 'live' in text:
         return '这条偏活动转化，重点在引导报名、到店或线下参与。'
-    if '先行配信' in text or '発売' in text:
+    if 'early access' in text or 'release' in text:
         return '这条属于发售/先行上线信息，适合归入作品上线节奏观察。'
     return '这条内容可作为该账号当天的代表更新，用于观察当前主推主题与宣发方向。'
 

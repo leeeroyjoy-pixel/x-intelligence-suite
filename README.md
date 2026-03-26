@@ -33,7 +33,7 @@ x-intelligence-suite/
 
 ```bash
 python skills/x-daily-report/scripts/run_x_daily_report.py \
-  --config skills/x-daily-report/configs/jav-news.yaml \
+  --config skills/x-daily-report/configs/example-report.yaml \
   --dry-run
 ```
 
@@ -53,7 +53,7 @@ This repo ships only generic example source files. Do not commit your private or
 - `skills/x-daily-report/SKILL.md`
 - `skills/x-daily-report/references/config-schema.md`
 - `skills/x-daily-report/references/output-contract.md`
-- `skills/x-daily-report/configs/jav-news.yaml`
+- `skills/x-daily-report/configs/example-report.yaml`
 
 
 ## Runtime requirements
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ## Example run
 
 ```bash
-python skills/x-daily-report/scripts/run_x_daily_report.py   --config skills/x-daily-report/configs/jav-news.json   --dry-run --no-media
+python skills/x-daily-report/scripts/run_x_daily_report.py   --config skills/x-daily-report/configs/example-report.json   --dry-run --no-media
 ```
 
-Use `jav-news.yaml` when `PyYAML` is installed.
+Use `example-report.yaml` when `PyYAML` is installed.

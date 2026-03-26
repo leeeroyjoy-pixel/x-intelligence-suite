@@ -1,5 +1,5 @@
 profile:
-  name: jav-news
+  name: example-report
   platform: x
   timezone: Asia/Shanghai
 
@@ -35,16 +35,11 @@ selection:
   drop_retweets: true
   drop_duplicate_topics: true
   priority_keywords:
-    - 新作
-    - 解禁
-    - デビュー
-    - 先行配信
-    - イベント
-    - 無料
-    - 特典
-    - 開催
-    - 終了
-    - 発売
+    - launch
+    - announcement
+    - release
+    - event
+    - milestone
   exclude_keywords: []
 
 media:
@@ -57,15 +52,15 @@ media:
   media_naming_mode: handle_tweetid
 
 output:
-  output_root: ../../../outputs/jav-news
+  output_root: ../../../outputs/example-report
   output_subdir_pattern: "{run_date}"
-  report_filename_pattern: "X-日本成人资讯账号昨日汇总-{content_date}-真实版.md"
+  report_filename_pattern: "X Example Daily Report-{content_date}-example.md"
   write_markdown: true
   write_summary_json: true
   write_media_manifest: true
   write_distribution_summary: true
   distribution_summary_filename: distribution-summary.txt
-  title_template: "X 日本成人资讯账号昨日汇总｜{content_date}（真实版）"
+  title_template: "X Example Daily Report｜{content_date}"
   markdown_template: default_report_template.md
 
 publish:

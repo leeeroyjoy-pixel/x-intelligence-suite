@@ -112,7 +112,7 @@ allowed-tools: [Bash, Read, Write]
 
 ```bash
 python skills/x-daily-report/scripts/run_x_daily_report.py \
-  --config skills/x-daily-report/configs/jav-news.yaml \
+  --config skills/x-daily-report/configs/example-report.yaml \
   --date 2026-03-26 \
   --dry-run
 ```

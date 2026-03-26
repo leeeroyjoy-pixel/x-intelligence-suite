@@ -19,7 +19,7 @@
 ```json
 {
   "status": "success",
-  "profile": "jav-news",
+  "profile": "example-report",
   "run_date": "2026-03-26",
   "content_date": "2026-03-25",
   "item_count": 6,
