@@ -37,6 +37,10 @@ python skills/x-daily-report/scripts/run_x_daily_report.py \
   --dry-run
 ```
 
+## Privacy note
+
+This repo ships only generic example source files. Do not commit your private or domain-specific source lists. Create your own source file locally and point your config to it.
+
 ## Design goals
 
 - reusable by other agents

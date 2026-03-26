@@ -1,6 +1,0 @@
-- @S1_No1_Style
-- @PRESTIGE_PR2020
-- @FalenoEvent
-- @IDEAPOCKETTER
-- @FANZACharaChat
-- @fanza_daily

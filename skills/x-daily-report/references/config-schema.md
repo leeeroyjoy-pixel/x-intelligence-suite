@@ -31,7 +31,7 @@ profile:
 
 ```yaml
 sources:
-  source_file: ./sources/jav-news.md
+  source_file: ./sources/example-handles.md
   source_type: markdown_list
   source_groups: []
   include_handles: []

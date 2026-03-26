@@ -4,19 +4,19 @@ profile:
   timezone: Asia/Shanghai
 
 sources:
-  source_file: ../../../sources/jav-news.md
+  source_file: ../../../sources/example-handles.md
   source_type: markdown_list
   source_groups: []
   include_handles: []
   exclude_handles: []
   dedupe_sources: true
   priority_handles:
-    - S1_No1_Style
-    - PRESTIGE_PR2020
-    - FalenoEvent
-    - IDEAPOCKETTER
-    - FANZACharaChat
-    - fanza_daily
+    - example_handle_one
+    - example_handle_two
+    - example_handle_three
+    - example_handle_four
+    - example_handle_five
+    - example_handle_six
 
 window:
   mode: yesterday

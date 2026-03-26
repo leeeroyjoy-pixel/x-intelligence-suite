@@ -9,9 +9,9 @@
 支持以下常见写法：
 
 ```md
-- @S1_No1_Style
-- https://x.com/PRESTIGE_PR2020
-- Handle：`@FalenoEvent`
+- @example_handle_one
+- https://x.com/example_handle_two
+- Handle：`@example_handle_three`
 ```
 
 解析器会自动：
@@ -24,15 +24,15 @@
 
 ```yaml
 handles:
-  - S1_No1_Style
-  - PRESTIGE_PR2020
+  - example_handle_one
+  - example_handle_two
 ```
 
 ## JSON
 
 ```json
 {
-  "handles": ["S1_No1_Style", "PRESTIGE_PR2020"]
+  "handles": ["example_handle_one", "example_handle_two"]
 }
 ```
 
